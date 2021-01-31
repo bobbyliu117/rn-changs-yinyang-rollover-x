@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplate, { Counter } from 'react-native-module-template'
+import RNChangs, { Counter } from 'rn-changs-yinyang-rollover-x'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplate)
+    console.log(RNChangs)
   })
 
-  return <Counter />
+  return <Counter label='Greetings' />
 }
 
 export default App
